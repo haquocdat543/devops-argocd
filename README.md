@@ -1,2 +1,2 @@
-# devops-argocd
-This is a demonstration of cicd project
+# Devops-argocd
+A part of cicd project
