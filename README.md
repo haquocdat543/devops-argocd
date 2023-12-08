@@ -11,4 +11,9 @@ cd devops-argocd
 ```
 kubectl apply -f argocd.yaml
 ```
-### 3. Check result
+### 3. Check argocd result
+### 4. Expose app to internet
+```
+kubectl patch svc myapp-service -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+```
+Result:
