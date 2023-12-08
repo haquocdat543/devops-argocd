@@ -11,3 +11,4 @@ cd devops-argocd
 ```
 kubectl apply -f argocd.yaml
 ```
+### 3. Check result
